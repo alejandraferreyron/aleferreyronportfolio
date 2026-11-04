@@ -518,3 +518,13 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .reels.reels--wide, .reels.reels--wide[data-count] { grid-template-columns: 1fr; }
 @media (min-width: 760px) { .reels.reels--wide[data-count="2"] { grid-template-columns: repeat(2, 1fr); } }
 .reels--wide .reel__frame { aspect-ratio: 16 / 9; }
+
+/* ---------- social icons (contact) ---------- */
+.socials { display: flex; justify-content: center; gap: 14px; margin-top: 28px; }
+.socials__link {
+  display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--ink-soft);
+  transition: color .3s ease, border-color .3s ease, background-color .3s ease;
+}
+.socials__link svg { width: 19px; height: 19px; }
+.socials__link:hover, .socials__link:focus-visible { color: var(--on-dark); background: var(--ink); border-color: var(--ink); }

@@ -9,12 +9,12 @@ const CONTACT = {
   email: "aleferreyron.ugc@gmail.com",
   phone: "+525510946330",          // digits with country code; also used for WhatsApp
   phoneDisplay: "+52 55 1094 6330",
-  instagram: "",   // optional, e.g. "https://instagram.com/yourhandle"
-  tiktok: "",      // optional
+  instagram: "https://www.instagram.com/aleferreyron/",   // optional, e.g. "https://instagram.com/yourhandle"
+  tiktok: "https://www.tiktok.com/@aleferreyron",      // optional
 };
 
 /* ---- 2. Image aspect ratios (width / height) ----------- */
-const AR = {"exp-fil-04":1.7778,"exp-fil-10":0.5625,"exp-fil-13":0.5625,"exp-fil-18":1.5004,"exp-fil-31":1.5004,"exp-bali-05":1.5004,"exp-bali-67":1.5004,"korb-013":0.5625,"korb-017":1.7778,"korb-019":0.6663,"korb-025":0.6663,"korb-027":0.6663,"frances-005":0.6663,"frances-009":0.6663,"frances-011":0.6663,"frances-012":0.6663,"frances-014":0.6663,"frances-015":0.6663,"frances-017":0.6663,"frances-019":0.6663,"coco-001":1.4911,"coco-007":1.4911,"coco-012":1.5009,"coco-026":1.5009,"coco-029":0.6663,"coco-033":0.6663,"coco-047":1.5009,"coco-056":1.5009,"coco-059":0.6669,"coco-061":0.6669,"coco-062":0.6669,"coco-066":1.4995,"drone-aura-001":0.5625,"drone-aura-007":0.5625,"drone-aura-010":1.7778,"drone-aura-012":1.7778,"drone-aura-015":0.5625,"drone-aura-019":0.5625,"drone-korb-001":0.5625,"drone-korb-005":1.7778,"drone-korb-008":1.7778,"drone-korb-012":0.5625,"drone-korb-035":0.5625,"frances-001":0.6663,"frances-010":0.6663,"frances-013":0.6663,"frances-016":0.6663,"korb-018":1.5009,"korb-021":0.6663,"korb-023":0.6663,"korb-026":0.6663,"korb-030":0.6663,"korb-032":0.6663,"rest-001":0.6663,"rest-002":1.5009,"rest-004":0.6663,"rest-005":1.5009,"rest-006":0.6663,"rest-008":0.6663,"rest-010":0.6663,"rest-011":0.6663,"rest-013":0.6663,"rest-014":0.6663,"rest-016":1.5009,"rest-017":0.6663,"rest-018":1.5009,"selini-002":0.6663,"selini-005":0.6663,"selini-013":0.6663,"selini-026":1.5009,"selini-029":0.6663,"selini-031":0.6663,"selini-046":0.6663,"selini-054":1.4995,"selini-056":0.6663,"selini-069":0.6663,"selini-077":0.6663,"selini-080":0.6663,"selini-083":0.6663,"villa-001":0.6663,"villa-007":0.6663,"villa-009":0.6663,"villa-013":0.6663,"villa-016":0.6663,"villa-026":0.6663,"villa-027":0.6663,"villa-031":0.6663,"villa-033":0.6663,"villa-036":0.6663,"villa-040":0.6663,"villa-050":1.5009,"villa-053":0.6663};
+const AR = {"selini-n066":1.5004,"selini-n113":0.6665,"selini-n163":0.6665,"selini-n058":0.6665,"selini-n154":0.6665,"selini-n057":0.6665,"selini-n040":1.5004,"selini-n005":0.6665,"selini-n075":1.5004,"exp-fil-04":1.7778,"exp-fil-10":0.5625,"exp-fil-13":0.5625,"exp-fil-18":1.5004,"exp-fil-31":1.5004,"exp-bali-05":1.5004,"exp-bali-67":1.5004,"korb-013":0.5625,"korb-017":1.7778,"korb-019":0.6663,"korb-025":0.6663,"korb-027":0.6663,"frances-005":0.6663,"frances-009":0.6663,"frances-011":0.6663,"frances-012":0.6663,"frances-014":0.6663,"frances-015":0.6663,"frances-017":0.6663,"frances-019":0.6663,"coco-001":1.4911,"coco-007":1.4911,"coco-012":1.5009,"coco-026":1.5009,"coco-029":0.6663,"coco-033":0.6663,"coco-047":1.5009,"coco-056":1.5009,"coco-059":0.6669,"coco-061":0.6669,"coco-062":0.6669,"coco-066":1.4995,"drone-aura-001":0.5625,"drone-aura-007":0.5625,"drone-aura-010":1.7778,"drone-aura-012":1.7778,"drone-aura-015":0.5625,"drone-aura-019":0.5625,"drone-korb-001":0.5625,"drone-korb-005":1.7778,"drone-korb-008":1.7778,"drone-korb-012":0.5625,"drone-korb-035":0.5625,"frances-001":0.6663,"frances-010":0.6663,"frances-013":0.6663,"frances-016":0.6663,"korb-018":1.5009,"korb-021":0.6663,"korb-023":0.6663,"korb-026":0.6663,"korb-030":0.6663,"korb-032":0.6663,"rest-001":0.6663,"rest-002":1.5009,"rest-004":0.6663,"rest-005":1.5009,"rest-006":0.6663,"rest-008":0.6663,"rest-010":0.6663,"rest-011":0.6663,"rest-013":0.6663,"rest-014":0.6663,"rest-016":1.5009,"rest-017":0.6663,"rest-018":1.5009,"selini-002":0.6663,"selini-005":0.6663,"selini-013":0.6663,"selini-026":1.5009,"selini-029":0.6663,"selini-031":0.6663,"selini-046":0.6663,"selini-054":1.4995,"selini-056":0.6663,"selini-069":0.6663,"selini-077":0.6663,"selini-080":0.6663,"selini-083":0.6663,"villa-001":0.6663,"villa-007":0.6663,"villa-009":0.6663,"villa-013":0.6663,"villa-016":0.6663,"villa-026":0.6663,"villa-027":0.6663,"villa-031":0.6663,"villa-033":0.6663,"villa-036":0.6663,"villa-040":0.6663,"villa-050":1.5009,"villa-053":0.6663};
 
 /* ---- 3. Reels ------------------------------------------ */
 const REEL = {
@@ -52,17 +52,14 @@ const REELS = {
 const GALLERIES = {
   hotelPhoto: [
     { label: "COCO Lifestyle Resort", images: ["coco-001","coco-062","coco-061","coco-012","coco-059","coco-033","coco-047","coco-029","coco-056","coco-026"] },
-    { label: "Selini Hills", note: "Komodo, Indonesia", images: ["selini-029","selini-026","selini-002","selini-046","selini-005","selini-069","selini-013","selini-056","selini-077","selini-083"] },
+    { label: "Selini Hills", note: "Komodo, Indonesia", images: ["selini-n066","selini-n113","selini-n163","selini-n058","selini-n154","selini-n057","selini-n040","selini-n005","selini-n075"] },
     { label: "Korbekwan Homestay", note: "Gam, Raja Ampat", images: ["korb-023","korb-017","korb-019","korb-032","korb-018","korb-021","korb-013","korb-025","korb-026","korb-027"] },
-    { label: "Frances Homestay", note: "Mansuar, Raja Ampat", images: ["frances-001","frances-010","frances-011","frances-005","frances-019","frances-012","frances-009","frances-014","frances-017","frances-015"] },
   ],
   villa: [
     { label: "Villa Blanca", note: "Canggu, Bali", images: ["villa-031","villa-027","villa-001","villa-033","villa-050","villa-013","villa-016","villa-036","villa-026","villa-007","villa-040","villa-009","villa-053"] },
   ],
   restaurant: [
-    { label: "Selini Hills Restaurant", note: "Komodo, Indonesia", images: ["rest-010","rest-016","rest-011","rest-013","rest-018","rest-014","rest-017"] },
-    { label: "Gili Islands Restaurants", note: "Lombok, Indonesia", images: ["rest-001","rest-002","rest-004","rest-005","rest-006","rest-008"] },
-    { label: "Frances Homestay Kitchen", note: "Mansuar, Raja Ampat", images: ["frances-013","frances-016"] },
+    { images: ["rest-010","rest-001","rest-016","rest-002","rest-011","rest-004","rest-013","rest-005","rest-018","rest-006","rest-014","rest-008","rest-017"] },
   ],
   experiences: [
     { images: ["exp-fil-10","exp-fil-18","exp-bali-05","exp-fil-13","exp-fil-31","exp-bali-67"] },
@@ -298,13 +295,15 @@ function renderReels() {
   }
 }
 
+const SOCIAL_ICONS = {
+  instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>',
+  tiktok: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.53.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>',
+};
 function renderContact() {
   const host = $("[data-contact]");
   const links = [];
   if (CONTACT.email) links.push(`<a class="btn btn--solid" href="mailto:${CONTACT.email}">Email me</a>`);
   if (CONTACT.phone) links.push(`<a class="btn" href="https://wa.me/${CONTACT.phone.replace(/\D/g, "")}" target="_blank" rel="noopener">WhatsApp</a>`);
-  if (CONTACT.instagram) links.push(`<a class="btn" href="${CONTACT.instagram}" target="_blank" rel="noopener">Instagram</a>`);
-  if (CONTACT.tiktok) links.push(`<a class="btn" href="${CONTACT.tiktok}" target="_blank" rel="noopener">TikTok</a>`);
   host.innerHTML = links.join("");
   host.hidden = links.length === 0;
   const details = $("[data-contact-details]");
@@ -313,6 +312,11 @@ function renderContact() {
     CONTACT.email && `<a href="mailto:${CONTACT.email}">${CONTACT.email}</a>`,
     CONTACT.phone && `<a href="tel:${CONTACT.phone}">${CONTACT.phoneDisplay || CONTACT.phone}</a>`,
   ].filter(Boolean).join("");
+  const socials = $("[data-socials]");
+  socials.innerHTML = [["instagram", "Instagram"], ["tiktok", "TikTok"]]
+    .filter(([k]) => CONTACT[k])
+    .map(([k, label]) => `<a class="socials__link" href="${CONTACT[k]}" target="_blank" rel="noopener" aria-label="${label} @aleferreyron">${SOCIAL_ICONS[k]}</a>`).join("");
+  socials.hidden = !socials.innerHTML;
   $("[data-year]").textContent = new Date().getFullYear();
 }
 
