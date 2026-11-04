@@ -349,6 +349,7 @@ function setActiveNav(page) {
 }
 
 function route() {
+  if (location.hash === "#travel") { history.replaceState(null, "", "#tech"); }
   const hash = decodeURIComponent(location.hash.slice(1)) || "home";
   const [page, ...rest] = hash.split("/");
   const sub = rest.join("/");
