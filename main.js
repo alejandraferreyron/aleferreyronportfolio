@@ -14,7 +14,7 @@ const CONTACT = {
 };
 
 /* ---- 2. Image aspect ratios (width / height) ----------- */
-const AR = {"selini-n066":1.5004,"selini-n113":0.6665,"selini-n163":0.6665,"selini-n058":0.6665,"selini-n154":0.6665,"selini-n057":0.6665,"selini-n040":1.5004,"selini-n005":0.6665,"selini-n075":1.5004,"exp-fil-04":1.7778,"exp-fil-10":0.5625,"exp-fil-13":0.5625,"exp-fil-18":1.5004,"exp-fil-31":1.5004,"exp-bali-05":1.5004,"exp-bali-67":1.5004,"korb-013":0.5625,"korb-017":1.7778,"korb-019":0.6663,"korb-025":0.6663,"korb-027":0.6663,"frances-005":0.6663,"frances-009":0.6663,"frances-011":0.6663,"frances-012":0.6663,"frances-014":0.6663,"frances-015":0.6663,"frances-017":0.6663,"frances-019":0.6663,"coco-001":1.4911,"coco-007":1.4911,"coco-012":1.5009,"coco-026":1.5009,"coco-029":0.6663,"coco-033":0.6663,"coco-047":1.5009,"coco-056":1.5009,"coco-059":0.6669,"coco-061":0.6669,"coco-062":0.6669,"coco-066":1.4995,"drone-aura-001":0.5625,"drone-aura-007":0.5625,"drone-aura-010":1.7778,"drone-aura-012":1.7778,"drone-aura-015":0.5625,"drone-aura-019":0.5625,"drone-korb-001":0.5625,"drone-korb-005":1.7778,"drone-korb-008":1.7778,"drone-korb-012":0.5625,"drone-korb-035":0.5625,"frances-001":0.6663,"frances-010":0.6663,"frances-013":0.6663,"frances-016":0.6663,"korb-018":1.5009,"korb-021":0.6663,"korb-023":0.6663,"korb-026":0.6663,"korb-030":0.6663,"korb-032":0.6663,"rest-001":0.6663,"rest-002":1.5009,"rest-004":0.6663,"rest-005":1.5009,"rest-006":0.6663,"rest-008":0.6663,"rest-010":0.6663,"rest-011":0.6663,"rest-013":0.6663,"rest-014":0.6663,"rest-016":1.5009,"rest-017":0.6663,"rest-018":1.5009,"selini-002":0.6663,"selini-005":0.6663,"selini-013":0.6663,"selini-026":1.5009,"selini-029":0.6663,"selini-031":0.6663,"selini-046":0.6663,"selini-054":1.4995,"selini-056":0.6663,"selini-069":0.6663,"selini-077":0.6663,"selini-080":0.6663,"selini-083":0.6663,"villa-001":0.6663,"villa-007":0.6663,"villa-009":0.6663,"villa-013":0.6663,"villa-016":0.6663,"villa-026":0.6663,"villa-027":0.6663,"villa-031":0.6663,"villa-033":0.6663,"villa-036":0.6663,"villa-040":0.6663,"villa-050":1.5009,"villa-053":0.6663};
+const AR = {"korb-007":1.7778,"korb-008":1.7778,"korb-009":0.5625,"korb-010":1.7778,"korb-011":0.5625,"korb-012":0.5625,"selini-n066":1.5004,"selini-n113":0.6665,"selini-n163":0.6665,"selini-n058":0.6665,"selini-n154":0.6665,"selini-n057":0.6665,"selini-n040":1.5004,"selini-n005":0.6665,"selini-n075":1.5004,"exp-fil-04":1.7778,"exp-fil-10":0.5625,"exp-fil-13":0.5625,"exp-fil-18":1.5004,"exp-fil-31":1.5004,"exp-bali-05":1.5004,"exp-bali-67":1.5004,"korb-013":0.5625,"korb-017":1.7778,"korb-019":0.6663,"korb-025":0.6663,"korb-027":0.6663,"frances-005":0.6663,"frances-009":0.6663,"frances-011":0.6663,"frances-012":0.6663,"frances-014":0.6663,"frances-015":0.6663,"frances-017":0.6663,"frances-019":0.6663,"coco-001":1.4911,"coco-007":1.4911,"coco-012":1.5009,"coco-026":1.5009,"coco-029":0.6663,"coco-033":0.6663,"coco-047":1.5009,"coco-056":1.5009,"coco-059":0.6669,"coco-061":0.6669,"coco-062":0.6669,"coco-066":1.4995,"drone-aura-001":0.5625,"drone-aura-007":0.5625,"drone-aura-010":1.7778,"drone-aura-012":1.7778,"drone-aura-015":0.5625,"drone-aura-019":0.5625,"drone-korb-001":0.5625,"drone-korb-005":1.7778,"drone-korb-008":1.7778,"drone-korb-012":0.5625,"drone-korb-035":0.5625,"frances-001":0.6663,"frances-010":0.6663,"frances-013":0.6663,"frances-016":0.6663,"korb-018":1.5009,"korb-021":0.6663,"korb-023":0.6663,"korb-026":0.6663,"korb-030":0.6663,"korb-032":0.6663,"rest-001":0.6663,"rest-002":1.5009,"rest-004":0.6663,"rest-005":1.5009,"rest-006":0.6663,"rest-008":0.6663,"rest-010":0.6663,"rest-011":0.6663,"rest-013":0.6663,"rest-014":0.6663,"rest-016":1.5009,"rest-017":0.6663,"rest-018":1.5009,"selini-002":0.6663,"selini-005":0.6663,"selini-013":0.6663,"selini-026":1.5009,"selini-029":0.6663,"selini-031":0.6663,"selini-046":0.6663,"selini-054":1.4995,"selini-056":0.6663,"selini-069":0.6663,"selini-077":0.6663,"selini-080":0.6663,"selini-083":0.6663,"villa-001":0.6663,"villa-007":0.6663,"villa-009":0.6663,"villa-013":0.6663,"villa-016":0.6663,"villa-026":0.6663,"villa-027":0.6663,"villa-031":0.6663,"villa-033":0.6663,"villa-036":0.6663,"villa-040":0.6663,"villa-050":1.5009,"villa-053":0.6663};
 
 /* ---- 3. Reels ------------------------------------------ */
 const REEL = {
@@ -53,7 +53,7 @@ const GALLERIES = {
   hotelPhoto: [
     { label: "COCO Lifestyle Resort", images: ["coco-001","coco-062","coco-061","coco-012","coco-059","coco-033","coco-047","coco-029","coco-056","coco-026"] },
     { label: "Selini Hills", note: "Komodo, Indonesia", images: ["selini-n066","selini-n113","selini-n163","selini-n058","selini-n154","selini-n057","selini-n040","selini-n005","selini-n075"] },
-    { label: "Korbekwan Homestay", note: "Gam, Raja Ampat", images: ["korb-023","korb-017","korb-019","korb-032","korb-018","korb-021","korb-013","korb-025","korb-026","korb-027"] },
+    { label: "Korbekwan Homestay", note: "Gam, Raja Ampat", images: ["korb-023","korb-008","korb-017","korb-019","korb-011","korb-032","korb-018","korb-007","korb-021","korb-013","korb-009","korb-025","korb-026","korb-010","korb-027","korb-012"] },
   ],
   villa: [
     { label: "Villa Blanca", note: "Canggu, Bali", images: ["villa-031","villa-027","villa-001","villa-033","villa-050","villa-013","villa-016","villa-036","villa-026","villa-007","villa-040","villa-009","villa-053"] },
@@ -75,6 +75,12 @@ for (const k in PRO_AR) AR[`pro/${k}`] = PRO_AR[k];
 const pro = (prefix, nums) => nums.map((n) => `pro/${prefix}-${String(n).padStart(3, "0")}`);
 
 const PRO = {
+  "uw-photography": {
+    title: "UW Photography", note: "Underwater & freediving",
+    cover: "pro/uw-041",
+    intro: "Underwater photography from reefs, wrecks, cenotes and open blue: marine life, freedivers and the light that only exists below the surface.",
+    images: pro("uw", [30,  1,  41,  35,  20,  11,  16,  27,  28,  4,  39,  9,  37,  2,  19,  43,  31,  24,  34,  21,  12,  5,  45,  14,  25,  29,  8,  7,  40,  38,  17,  33,  36,  3,  22,  42,  13,  15,  26,  23,  10,  46,  6,  44,  18,  32]),
+  },
   "voia": {
     title: "VOIA", note: "Travel brand · Bali, Komodo & Philippines", cover: "pro/voia-cover",
     reels: "voia",
@@ -106,15 +112,9 @@ const PRO = {
   },
   portraits: {
     title: "Portraits", note: "Headshots & personal brands",
-    cover: "pro/portraits-002",
+    cover: "pro/portraits-002", coverPos: "50% 12%",
     intro: "Professional portraits and headshots with a clean, timeless look for teams, founders and personal brands.",
     images: pro("portraits", [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]),
-  },
-  "uw-photography": {
-    title: "UW Photography", note: "Underwater & freediving",
-    cover: "pro/uw-041",
-    intro: "Underwater photography from reefs, wrecks, cenotes and open blue: marine life, freedivers and the light that only exists below the surface.",
-    images: pro("uw", [30,  1,  41,  35,  20,  11,  16,  27,  28,  4,  39,  9,  37,  2,  19,  43,  31,  24,  34,  21,  12,  5,  45,  14,  25,  29,  8,  7,  40,  38,  17,  33,  36,  3,  22,  42,  13,  15,  26,  23,  10,  46,  6,  44,  18,  32]),
   },
 };
 
@@ -149,9 +149,9 @@ function groupsHTML(groups) {
       </div>`).join("");
 }
 
-function tileHTML(href, img, label, note) {
+function tileHTML(href, img, label, note, pos) {
   return `<a class="tile" href="${href}">
-    <img src="assets/img/${img}.jpg" alt="" loading="lazy" decoding="async">
+    <img src="assets/img/${img}.jpg" alt="" loading="lazy" decoding="async"${pos ? ` style="object-position:${pos}"` : ""}>
     <span>${label}${note ? `<small>${note}</small>` : ""}</span>
   </a>`;
 }
@@ -161,7 +161,7 @@ function renderPro() {
   const host = $("[data-pro-views]");
   if (!host) return;
   $("[data-pro-tiles]").innerHTML = Object.entries(PRO)
-    .map(([k, c]) => tileHTML(`#photography/${k}`, c.cover, c.title, c.note)).join("");
+    .map(([k, c]) => tileHTML(`#photography/${k}`, c.cover, c.title, c.note, c.coverPos)).join("");
 
   const views = [];
   const crumbs = (trail) => `<nav class="crumbs" aria-label="Breadcrumb">
