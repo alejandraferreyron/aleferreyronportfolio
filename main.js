@@ -82,7 +82,7 @@ const PRO = {
     images: pro("uw", [30,  1,  41,  35,  20,  11,  16,  27,  28,  4,  39,  9,  37,  2,  19,  43,  31,  24,  34,  21,  12,  5,  45,  14,  25,  29,  8,  7,  40,  38,  17,  33,  36,  3,  22,  42,  13,  15,  26,  23,  10,  46,  6,  44,  18,  32]),
   },
   "voia": {
-    title: "VOIA", note: "Travel brand · Bali, Komodo & Philippines", cover: "pro/voia-cover",
+    title: "VOIA", note: "Travel brand · Bali, Komodo & Philippines", cover: "pro/voia-cover", coverPos: "50% 100%",
     reels: "voia",
     images: ["pro/voia-fil-001", "pro/voia-bali-hq05", "pro/voia-fil-002", "pro/voia-komodo-005", "pro/voia-fil-008", "pro/voia-bali-002", "pro/voia-fil-009", "pro/voia-komodo-006", "pro/voia-fil-038", "pro/voia-bali-hq67", "pro/voia-komodo-007", "pro/voia-fil-011", "pro/voia-bali-008", "pro/voia-fil-018", "pro/voia-komodo-010", "pro/voia-fil-022", "pro/voia-bali-012", "pro/voia-komodo-021", "pro/voia-fil-021", "pro/voia-bali-014", "pro/voia-fil-007", "pro/voia-komodo-023", "pro/voia-bali-017", "pro/voia-fil-026", "pro/voia-komodo-028", "pro/voia-bali-032", "pro/voia-fil-033", "pro/voia-komodo-037", "pro/voia-bali-hq58", "pro/voia-komodo-046"],
   },
