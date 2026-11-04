@@ -51,8 +51,8 @@ const REELS = {
    Each gallery is a list of groups: { label, note, images[] } */
 const GALLERIES = {
   hotelPhoto: [
-    { label: "COCO Lifestyle Resort", images: ["coco-001","coco-062","coco-061","coco-012","coco-059","coco-033","coco-047","coco-029","coco-056","coco-026"] },
     { label: "Selini Hills", note: "Komodo, Indonesia", images: ["selini-n066","selini-n113","selini-n163","selini-n058","selini-n154","selini-n057","selini-n040","selini-n005","selini-n075"] },
+    { label: "COCO Lifestyle Resort", images: ["coco-001","coco-062","coco-061","coco-012","coco-059","coco-033","coco-047","coco-029","coco-056","coco-026"] },
     { label: "Korbekwan Homestay", note: "Gam, Raja Ampat", images: ["korb-023","korb-008","korb-017","korb-019","korb-011","korb-032","korb-018","korb-007","korb-021","korb-013","korb-009","korb-025","korb-026","korb-010","korb-027","korb-012"] },
   ],
   villa: [
