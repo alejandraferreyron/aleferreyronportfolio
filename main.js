@@ -41,6 +41,7 @@ const REELS = {
     { src: "booking",  title: "Booking Tips & Hacks reel",        client: "Booking.com" },
     { src: "workaway", title: "Work & Travel Storytelling reel",  client: "Workaway" },
     { src: "nomadtable", title: "Travel Community App reel",    client: "NomadTable" },
+    { src: "pana",     title: "AI Assistant App Demo reel",     client: "Pana" },
   ],
   voia: [
     { src: "voia-intro", title: "Brand Intro film",   client: "VOIA" },
